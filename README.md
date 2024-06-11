@@ -75,7 +75,7 @@ git clone https://github.com/ARESHAmohanad/whatspoof.git
 ### Install dependencies.
 
 ```bash
-cd whats-spoofing
+cd whatspoof
 go mod download
 go get 
 ```
