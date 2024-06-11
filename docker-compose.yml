@@ -1,0 +1,13 @@
+version: '3'
+services:
+  whats-spoofing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+      - ./media:/app/media
+      - ./history:/app/history
+      - ./db:/app/db
+    #command: sleep infinity
+    command: ["/app/whats-spoofing"]
