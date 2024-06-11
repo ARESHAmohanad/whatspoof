@@ -69,7 +69,7 @@ resp, err := cli.SendMessage(context.Background(), chatID, msg)
 #### Clone the repository.
 
 ```bash
-git clone https://github.com/lichti/whats-spoofing.git
+git clone https://github.com/ARESHAmohanad/whatspoof.git
 ```
 
 ### Install dependencies.
